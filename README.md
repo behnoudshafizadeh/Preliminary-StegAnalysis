@@ -5,9 +5,9 @@ Notice:i provide for you basic knowledge about my study in this filed,inspired b
 
 
 ## Dataset
-in this project we use a `10000` image dataset from [link](http://agents.fel.cvut.cz/stegodata/) provided by `Jessica Fridrich` as a `BossBase V 1.01`. each image has a `.pgm` format  with size `512*512` as a `gray-level` image such as below :
+in this project we use a `10000` image dataset from [link](http://agents.fel.cvut.cz/stegodata/) provided by `Jessica Fridrich` as a `BossBase V 1.01`. each image has a `.pgm` format  with size `128*128` as a `gray-level` image such as below `cover` image. furthermore, we use two steganography algorithm dataset `WOW, S-Uniward` with different `bpp` rates as a counterpart of cover data called `stego` images. Note that put `stego` and `cover` dataset in the four directories `dataset/train/stego`,`dataset/test/stego`,`dataset/train/cover` and `dataset/test/cover`  :
 
-![steganalysis_result](https://user-images.githubusercontent.com/53394692/131082065-34c9ce37-e728-4902-bb06-19b00908e13c.jpg)
+![image](https://user-images.githubusercontent.com/53394692/131145054-82f29047-0cbe-4bd0-b3b0-e62fb71e87d0.png)
 
 
 ## install anaconda, CUDA, cuDNN, Tensorflow
